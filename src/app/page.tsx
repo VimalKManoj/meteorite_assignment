@@ -6,7 +6,6 @@ const Map = dynamic(() => import("@/utils/map"), {
   ssr: false,
 });
 import {
-  ArrowLeft,
   Globe,
   MapPin,
   Download,
@@ -14,8 +13,6 @@ import {
   Star,
   ChevronRight,
   MountainIcon as Hiking,
-  Activity,
-  Home,
 } from "lucide-react";
 
 export default function NorwayGuidePage() {
@@ -115,8 +112,8 @@ export default function NorwayGuidePage() {
               </p>
               <p>
                 This guide is my best tips for Norway to make sure you get the
-                most out of your trip. It's focused around the fjords in the
-                west and Lofoten in the north. In my opinion, it's the best
+                most out of your trip. It&apos;s focused around the fjords in the
+                west and Lofoten in the north. In my opinion, it&apos;s the best
                 areas to explore in Norway.
               </p>
             </div>
@@ -293,7 +290,7 @@ export default function NorwayGuidePage() {
                 <h2 className="text-2xl font-bold mb-2">1 Itenerary</h2>
                 <p className="text-gray-400 max-w-2xl text-sm">
                   Get expertly curated itineraries that help you organise all
-                  the 'things to do' in an ideal time order
+                  the &apos;things to do&apos; in an ideal time order
                 </p>
               </div>
               <Link href="#" className="text-black font-medium hover:underline">
